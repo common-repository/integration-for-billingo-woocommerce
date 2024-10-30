@@ -1,0 +1,49 @@
+.wc-billingo-message {
+	overflow: auto;
+	max-height: 100px;
+}
+
+.type-shop_order .column-order_actions a.button.wc_billingo {
+	float: left;
+	width: 26px;
+	height: 26px;
+	padding: 3px 2px;
+}
+
+.type-shop_order .column-order_actions a.button.wc_billingo img {
+	width: 16px;
+}
+
+#wc_billingo_already {
+	color: #a00;
+}
+
+#wc_billingo_options_form {
+	border-top: 1px solid #ddd;
+	margin: 0 -12px;
+}
+
+#wc_billingo_options_form .fields {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+	margin: 0 0 5px 0;
+}
+
+#wc_billingo_options_form h4 {
+	margin: 0 0 5px 0;
+}
+
+#wc_billingo_options_form input[type="number"],
+#wc_billingo_options_form input[type="text"] {
+	width: 100%;
+	margin: 0 0 5px 0;
+}
+
+.wc-billingo-nag {
+	position: relative;
+}
+
+.wc-billingo-nag a.notice-dismiss {
+	text-decoration: none;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "voov/billingo-api-connector",
+  "description": "Billingo API Connector",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Fekete",
+      "email": "daniel.fekete@voov.hu"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-curl": "*",
+    "firebase/php-jwt": "^3.0",
+    "symfony/options-resolver": "2.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Billingo\\API\\Connector\\": "src"
+    }
+  }
+}
